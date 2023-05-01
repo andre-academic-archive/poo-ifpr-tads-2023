@@ -11,13 +11,12 @@
 ```java
 public class Atv02 {
     public static void main(String[] args) {
-        int a, b = 5, c = 10;
-
         System.out.print("Informe um inteiro: ");
-        a = b * c;
+
+        int a, b = 6, c = 15;
 
         // Este programa executa um cálculo de exemplo de folha de pagamento.
-        System.out.println("O produto das variáveis b e c é " + a);
+        System.out.println(b + " * " + c + " = " + a);
     }
 }
 ```
